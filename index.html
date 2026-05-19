@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áreas Temáticas - Escola SENAI "Luis Eulalio de Bueno Vidigal Filho"</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Main Title Section -->
+    <div class="main-title-section">
+        <canvas id="title-canvas"></canvas>
+        <img src="./img/logo_senai.png"
+            alt="Logo Senai Suzano" class="main-logo">
+
+            
+        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVL4kJQu33DXiZIKBLB5VEDEm4tMTyzYlG_g&s"
+            alt="Logo Escola SENAI "Luis Eulalio de Bueno Vidigal Filho"" class="main-logo">
+ -->
+
+        <!-- <img src="/assets/generated/innovation-hero-compact.dim_400x300.png" alt="Logo Escola SENAI "Luis Eulalio de Bueno Vidigal Filho"" class="main-logo"> -->
+        <h1 class="main-title">Escola SENAI "Luis Eulalio de Bueno Vidigal Filho"</h1>
+    </div>
+
+    <canvas id="network-canvas"></canvas>
+
+    <!-- Slideshow Container -->
+    <div class="slideshow-container">
+        <!-- Slide 1: Indústria -->
+        <div class="slide" data-slide="0">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-visual cyan">
+                            <img src="./img/Indústria/Automação Industrial.png" alt="Indústria">
+                            <!-- <img src="/assets/generated/industry-automation.dim_400x300.png" alt="Indústria"> -->
+                            <div class="interactive-panel cyan">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                                    </svg>
+                                    <span style="color: var(--cyan);">🏭 Automação Industrial</span>
+                                </div>
+                                <div class="panel-text">Transformando processos produtivos</div>
+                            </div>
+                        </div>
+
+                        <div class="tech-content">
+                            <span class="tech-badge cyan">Revolução Industrial</span>
+                            <h2 class="glow-cyan">🏭 Indústria</h2>
+                            <p>
+                                A indústria moderna está sendo transformada pela automação, IoT e inteligência
+                                artificial. Fábricas inteligentes otimizam produção, reduzem custos e aumentam a
+                                eficiência.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="cyan">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Indústria 4.0</div>
+                                        <div class="feature-desc">Integração digital e automação avançada</div>
+                                    </div>
+                                </li>
+                                <li class="cyan">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">IoT Industrial</div>
+                                        <div class="feature-desc">Sensores conectados em tempo real</div>
+                                    </div>
+                                </li>
+                                <li class="cyan">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Manutenção Preditiva</div>
+                                        <div class="feature-desc">IA prevendo falhas antes que ocorram</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: Produção -->
+        <div class="slide" data-slide="1">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-content" style="order: 2;">
+                            <span class="tech-badge magenta">Eficiência Produtiva</span>
+                            <h2 class="glow-magenta">⚙️ Produção</h2>
+                            <p>
+                                Sistemas de produção modernos utilizam robótica, automação e análise de dados para
+                                maximizar eficiência, qualidade e sustentabilidade nos processos manufatureiros.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="magenta">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Manufatura Lean</div>
+                                        <div class="feature-desc">Eliminação de desperdícios</div>
+                                    </div>
+                                </li>
+                                <li class="magenta">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Controle de Qualidade</div>
+                                        <div class="feature-desc">Inspeção automatizada por visão computacional</div>
+                                    </div>
+                                </li>
+                                <li class="magenta">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Linhas Flexíveis</div>
+                                        <div class="feature-desc">Adaptação rápida a novos produtos</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-visual magenta" style="order: 1;">
+                            <img src="./img/Indústria/Linha de Produção.png" alt="Produção">
+                            <!-- <img src="/assets/generated/production-line.dim_400x300.png" alt="Produção"> -->
+                            <div class="interactive-panel magenta">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                                    </svg>
+                                    <span style="color: var(--magenta);">⚙️ Linha Ativa</span>
+                                </div>
+                                <div class="panel-text">Produção otimizada em andamento</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Financeiro -->
+        <div class="slide" data-slide="2">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-visual purple">
+                            <img src="./img/Finanças/Painel Financeiro.png" alt="Financeiro">
+                            <!-- <img src="/assets/generated/financial-dashboard.dim_400x300.png" alt="Financeiro"> -->
+                            <div class="interactive-panel purple">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
+                                    </svg>
+                                    <span style="color: var(--purple);">💰 Sistema Financeiro</span>
+                                </div>
+                                <div class="panel-text">Análise de dados em tempo real</div>
+                            </div>
+                        </div>
+
+                        <div class="tech-content">
+                            <span class="tech-badge purple">Tecnologia Financeira</span>
+                            <h2 class="glow-purple">💰 Financeiro</h2>
+                            <p>
+                                A tecnologia está revolucionando o setor financeiro com fintechs, blockchain, pagamentos
+                                digitais e análise preditiva para decisões mais inteligentes.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="purple">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Pagamentos Digitais</div>
+                                        <div class="feature-desc">Transações instantâneas e seguras</div>
+                                    </div>
+                                </li>
+                                <li class="purple">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Blockchain</div>
+                                        <div class="feature-desc">Transparência e segurança descentralizada</div>
+                                    </div>
+                                </li>
+                                <li class="purple">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Análise Preditiva</div>
+                                        <div class="feature-desc">IA para previsões financeiras precisas</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Saúde e Bem-Estar -->
+        <div class="slide" data-slide="3">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-content" style="order: 2;">
+                            <span class="tech-badge orange">Medicina e Bem-Estar</span>
+                            <h2 class="glow-orange">🏥 Saúde e Bem-Estar</h2>
+                            <p>
+                                A tecnologia está transformando a medicina com diagnósticos por IA, telemedicina,
+                                dispositivos vestíveis e tratamentos personalizados para uma vida mais saudável.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="orange">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Diagnóstico por IA</div>
+                                        <div class="feature-desc">Detecção precoce de doenças</div>
+                                    </div>
+                                </li>
+                                <li class="orange">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Telemedicina e Wearables</div>
+                                        <div class="feature-desc">Monitoramento contínuo e consultas remotas</div>
+                                    </div>
+                                </li>
+                                <li class="orange">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Medicina Personalizada</div>
+                                        <div class="feature-desc">Tratamentos baseados em genética e IA</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-visual orange" style="order: 1;">
+                            <img src="./img/Saúde/Centro de Bem-Estar.png" alt="Saúde e Bem-Estar">
+                            <!-- <img src="/assets/generated/medical-scanner.dim_400x300.png" alt="Saúde e Bem-Estar"> -->
+                            <div class="interactive-panel orange">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" />
+                                    </svg>
+                                    <span style="color: var(--orange);">🏥 Centro de Saúde</span>
+                                </div>
+                                <div class="panel-text">Cuidado holístico e personalizado</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Educação -->
+        <div class="slide" data-slide="4">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-visual green">
+                            <img src="./img/Educação/Sala de Aula Digital.png" alt="Educação">
+                            <!-- <img src="/assets/generated/digital-classroom.dim_400x300.png" alt="Educação"> -->
+                            <div class="interactive-panel green">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                                    </svg>
+                                    <span style="color: var(--green);">🏫 Sala Digital</span>
+                                </div>
+                                <div class="panel-text">Aprendizado personalizado e interativo</div>
+                            </div>
+                        </div>
+
+                        <div class="tech-content">
+                            <span class="tech-badge green">Educação do Futuro</span>
+                            <h2 class="glow-green">🏫 Educação</h2>
+                            <p>
+                                A educação está sendo transformada por plataformas digitais, IA adaptativa, realidade
+                                virtual e aprendizado personalizado para cada estudante.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="green">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Aprendizado Adaptativo</div>
+                                        <div class="feature-desc">IA que personaliza o ensino</div>
+                                    </div>
+                                </li>
+                                <li class="green">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Realidade Virtual</div>
+                                        <div class="feature-desc">Experiências imersivas de aprendizado</div>
+                                    </div>
+                                </li>
+                                <li class="green">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Gamificação</div>
+                                        <div class="feature-desc">Aprender jogando e se divertindo</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Tecnologia e Inovação -->
+        <div class="slide" data-slide="5">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-content" style="order: 2;">
+                            <span class="tech-badge blue">Inovação Digital</span>
+                            <h2 class="glow-blue">💻 Tecnologia e Inovação</h2>
+                            <p>
+                                A inovação tecnológica impulsiona o progresso em todas as áreas, desde IA e computação
+                                quântica até biotecnologia e nanotecnologia, moldando o futuro da humanidade.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="blue">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Inteligência Artificial</div>
+                                        <div class="feature-desc">Máquinas que aprendem e raciocinam</div>
+                                    </div>
+                                </li>
+                                <li class="blue">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Computação Quântica</div>
+                                        <div class="feature-desc">Processamento exponencialmente mais rápido</div>
+                                    </div>
+                                </li>
+                                <li class="blue">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Internet das Coisas</div>
+                                        <div class="feature-desc">Dispositivos conectados inteligentemente</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-visual blue" style="order: 1;">
+                            <img src="./img/Tecnologia/Holograma de Programação (Compacta).png" alt="Tecnologia e Inovação">
+                            <!-- <img src="/assets/generated/ai-brain-hologram-compact.dim_400x300.png" alt="Tecnologia e Inovação"> -->
+                            <div class="interactive-panel blue">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" />
+                                    </svg>
+                                    <span style="color: var(--blue);">💻 Inovação Ativa</span>
+                                </div>
+                                <div class="panel-text">Desenvolvendo o futuro agora</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Meio Ambiente e Sustentabilidade -->
+        <div class="slide" data-slide="6">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-visual lime">
+                            <img src="./img/Sustentabilidade/Cidade Sustentável.png" alt="Meio Ambiente">
+                            <!-- <img src="/assets/generated/sustainable-city.dim_400x300.png" alt="Meio Ambiente"> -->
+                            <div class="interactive-panel lime">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                                    </svg>
+                                    <span style="color: var(--lime);">🌱 Cidade Sustentável</span>
+                                </div>
+                                <div class="panel-text">Reduzindo pegada de carbono</div>
+                            </div>
+                        </div>
+
+                        <div class="tech-content">
+                            <span class="tech-badge lime">Planeta Sustentável</span>
+                            <h2 class="glow-lime">🌱 Meio Ambiente e Sustentabilidade</h2>
+                            <p>
+                                Tecnologias verdes, energia renovável, agricultura de precisão e cidades inteligentes
+                                estão criando um futuro mais sustentável para o planeta.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="lime">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Energia Renovável</div>
+                                        <div class="feature-desc">Solar, eólica e hidrogênio verde</div>
+                                    </div>
+                                </li>
+                                <li class="lime">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Agricultura de Precisão</div>
+                                        <div class="feature-desc">Otimização de recursos naturais</div>
+                                    </div>
+                                </li>
+                                <li class="lime">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Economia Circular</div>
+                                        <div class="feature-desc">Reciclagem e reutilização inteligente</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Economia e Finanças -->
+        <div class="slide" data-slide="7">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-content" style="order: 2;">
+                            <span class="tech-badge yellow">Economia Digital</span>
+                            <h2 class="glow-yellow">💰 Economia e Finanças</h2>
+                            <p>
+                                A economia digital está sendo transformada por criptomoedas, DeFi, trading algorítmico e
+                                análise de big data para decisões financeiras mais inteligentes.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="yellow">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Criptomoedas</div>
+                                        <div class="feature-desc">Moedas digitais descentralizadas</div>
+                                    </div>
+                                </li>
+                                <li class="yellow">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Finanças Descentralizadas</div>
+                                        <div class="feature-desc">DeFi sem intermediários</div>
+                                    </div>
+                                </li>
+                                <li class="yellow">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Trading Algorítmico</div>
+                                        <div class="feature-desc">IA otimizando investimentos</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-visual yellow" style="order: 1;">
+                            <img src="./img/Finanças/Piso de Negociação.png" alt="Economia e Finanças">
+                            <!-- <img src="/assets/generated/trading-floor.dim_400x300.png" alt="Economia e Finanças"> -->
+                            <div class="interactive-panel yellow">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
+                                    </svg>
+                                    <span style="color: var(--yellow);">💰 Mercado Global</span>
+                                </div>
+                                <div class="panel-text">Análise de mercado em tempo real</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Trabalho e Indústria -->
+        <div class="slide" data-slide="8">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-visual teal">
+                            <img src="./img/Indústria/Local de Trabalho Moderno.png" alt="Trabalho e Indústria">
+                            <!-- <img src="/assets/generated/modern-workplace.dim_400x300.png" alt="Trabalho e Indústria"> -->
+                            <div class="interactive-panel teal">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z" />
+                                    </svg>
+                                    <span style="color: var(--teal);">🏢 Ambiente Moderno</span>
+                                </div>
+                                <div class="panel-text">Colaboração híbrida eficiente</div>
+                            </div>
+                        </div>
+
+                        <div class="tech-content">
+                            <span class="tech-badge teal">Futuro do Trabalho</span>
+                            <h2 class="glow-teal">🏢 Trabalho e Indústria</h2>
+                            <p>
+                                O trabalho está sendo transformado por automação, trabalho remoto, colaboração digital e
+                                novas formas de organização que priorizam flexibilidade e produtividade.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="teal">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Trabalho Remoto</div>
+                                        <div class="feature-desc">Colaboração global sem fronteiras</div>
+                                    </div>
+                                </li>
+                                <li class="teal">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Automação de Processos</div>
+                                        <div class="feature-desc">RPA liberando tempo para criatividade</div>
+                                    </div>
+                                </li>
+                                <li class="teal">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Upskilling Digital</div>
+                                        <div class="feature-desc">Capacitação contínua de profissionais</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Sociedade e Cidadania -->
+        <div class="slide" data-slide="9">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-content" style="order: 2;">
+                            <span class="tech-badge pink">Cidadania Digital</span>
+                            <h2 class="glow-pink">🏙️ Sociedade e Cidadania</h2>
+                            <p>
+                                Tecnologias digitais estão promovendo participação cidadã, transparência governamental,
+                                cidades inteligentes e inclusão digital para todos.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="pink">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">E-Government</div>
+                                        <div class="feature-desc">Serviços públicos digitais</div>
+                                    </div>
+                                </li>
+                                <li class="pink">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Smart Cities</div>
+                                        <div class="feature-desc">Infraestrutura urbana conectada</div>
+                                    </div>
+                                </li>
+                                <li class="pink">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Inclusão Digital</div>
+                                        <div class="feature-desc">Acesso à tecnologia para todos</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-visual pink" style="order: 1;">
+                            <img src="./img/Sustentabilidade/Cidade Inteligente.png" alt="Sociedade e Cidadania">
+                            <!-- <img src="/assets/generated/smart-city.dim_400x300.png" alt="Sociedade e Cidadania"> -->
+                            <div class="interactive-panel pink">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                                    </svg>
+                                    <span style="color: var(--pink);">🏙️ Cidade Inteligente</span>
+                                </div>
+                                <div class="panel-text">Conectando cidadãos e serviços</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 11: Cultura, Mídia e Comunicação -->
+        <div class="slide" data-slide="10">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-visual indigo">
+                            <img src="./img/Mídia/Estúdio de Mídia.png" alt="Cultura e Mídia">
+                            <!-- <img src="/assets/generated/media-studio.dim_400x300.png" alt="Cultura e Mídia"> -->
+                            <div class="interactive-panel indigo">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" />
+                                    </svg>
+                                    <span style="color: var(--indigo);">🎨 Estúdio Digital</span>
+                                </div>
+                                <div class="panel-text">Criando conteúdo inovador</div>
+                            </div>
+                        </div>
+
+                        <div class="tech-content">
+                            <span class="tech-badge indigo">Mídia Digital</span>
+                            <h2 class="glow-indigo">🎨 Cultura, Mídia e Comunicação</h2>
+                            <p>
+                                A revolução digital está transformando como criamos, compartilhamos e consumimos
+                                conteúdo, com streaming, redes sociais, realidade virtual e criação assistida por IA.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="indigo">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Streaming Global</div>
+                                        <div class="feature-desc">Conteúdo sob demanda 24/7</div>
+                                    </div>
+                                </li>
+                                <li class="indigo">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Criação por IA</div>
+                                        <div class="feature-desc">Arte, música e texto gerados por IA</div>
+                                    </div>
+                                </li>
+                                <li class="indigo">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Metaverso</div>
+                                        <div class="feature-desc">Experiências culturais imersivas</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 12: Ciência e Pesquisa -->
+        <div class="slide" data-slide="11">
+            <div class="slide-content">
+                <div class="container">
+                    <div class="tech-grid">
+                        <div class="tech-content" style="order: 2;">
+                            <span class="tech-badge coral">Fronteiras do Conhecimento</span>
+                            <h2 class="glow-coral">🚀 Ciência e Pesquisa</h2>
+                            <p>
+                                A ciência moderna utiliza supercomputadores, IA, simulações avançadas e big data para
+                                acelerar descobertas em física, biologia, astronomia e todas as áreas do conhecimento.
+                            </p>
+
+                            <ul class="tech-features">
+                                <li class="coral">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">IA para Pesquisa</div>
+                                        <div class="feature-desc">Acelerando descobertas científicas</div>
+                                    </div>
+                                </li>
+                                <li class="coral">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Simulações Avançadas</div>
+                                        <div class="feature-desc">Modelagem de fenômenos complexos</div>
+                                    </div>
+                                </li>
+                                <li class="coral">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                    </svg>
+                                    <div class="feature-text">
+                                        <div class="feature-title">Colaboração Global</div>
+                                        <div class="feature-desc">Cientistas conectados mundialmente</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-visual coral" style="order: 1;">
+                            <img src="./img/Pesquisa/Laboratório de Pesquisa.png" alt="Ciência e Pesquisa">
+                            <!-- <img src="/assets/generated/research-lab.dim_400x300.png" alt="Ciência e Pesquisa"> -->
+                            <div class="interactive-panel coral">
+                                <div class="panel-title">
+                                    <svg class="panel-icon" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                                    </svg>
+                                    <span style="color: var(--coral);">🚀 Laboratório Avançado</span>
+                                </div>
+                                <div class="panel-text">Descobrindo o desconhecido</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <div class="nav-arrow prev" id="prevBtn">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+        </svg>
+    </div>
+    <div class="nav-arrow next" id="nextBtn">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+        </svg>
+    </div>
+
+    <!-- Slide Indicators -->
+    <div class="slide-indicators" id="indicators"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>
+                    © 2026. Escola SENAI "Luis Eulalio de Bueno Vidigal Filho" - Todos os Direitos Reservados <span
+                        class="heart">♥</span>
+                    <a href="https://www.sp.senai.br/unidade/suzano" target="_blank" rel="noopener noreferrer">SENAI</a>
+                </p>
+                <p>Escola SENAI "Luis Eulalio de Bueno Vidigal Filho"</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Hidden Assets Reference Documentation -->
+    <div class="assets-info" style="display: none;">
+        <!-- 
+        ═══════════════════════════════════════════════════════════════════════════════
+        CATÁLOGO COMPLETO DE ASSETS VISUAIS DO PROJETO
+        Escola SENAI "Luis Eulalio de Bueno Vidigal Filho"
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        Este catálogo documenta todos os recursos visuais disponíveis no projeto,
+        organizados por categoria e resolução para fácil referência e manutenção.
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📁 CATEGORIA: INTELIGÊNCIA ARTIFICIAL E TECNOLOGIA
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        🖼️ AI Brain Hologram (Cérebro Holográfico de IA)
+           • Compacta (400x300): /assets/generated/ai-brain-hologram-compact.dim_400x300.png
+           • Alta Resolução (800x600): /assets/generated/ai-brain-hologram.dim_800x600.png
+           • Uso: Slides de Tecnologia e Inovação, IA, Ciência
+        
+        🖼️ AR Interface Hologram (Interface de Realidade Aumentada)
+           • Compacta (400x300): /assets/generated/ar-interface-hologram-compact.dim_400x300.png
+           • Alta Resolução (800x600): /assets/generated/ar-interface-hologram.dim_800x600.png
+           • Uso: Tecnologia, Inovação, Educação Digital
+        
+        🖼️ Programming Hologram (Holograma de Programação)
+           • Compacta (400x300): /assets/generated/programming-hologram-compact.dim_400x300.png
+           • Alta Resolução (800x600): /assets/generated/programming-hologram.dim_800x600.png
+           • Uso: Tecnologia, Desenvolvimento, Inovação
+        
+        🖼️ Circuit Pattern (Padrão de Circuitos)
+           • Compacta (400x300): /assets/generated/circuit-pattern-compact.dim_400x300.png
+           • Alta Resolução (1024x768): /assets/generated/circuit-pattern.dim_1024x768.png
+           • Uso: Backgrounds tecnológicos, Eletrônica, Engenharia
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📁 CATEGORIA: INDÚSTRIA E PRODUÇÃO
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        🖼️ Industry Automation (Automação Industrial)
+           • Compacta (400x300): /assets/generated/industry-automation.dim_400x300.png
+           • Uso: Slide de Indústria, Automação, Manufatura 4.0
+        
+        🖼️ Production Line (Linha de Produção)
+           • Compacta (400x300): /assets/generated/production-line.dim_400x300.png
+           • Uso: Slide de Produção, Manufatura, Processos Industriais
+        
+        🖼️ Futuristic Robot (Robô Futurista)
+           • Compacta (400x300): /assets/generated/futuristic-robot-compact.dim_400x300.png
+           • Alta Resolução (800x600): /assets/generated/futuristic-robot.dim_800x600.png
+           • Uso: Robótica, Automação, Indústria 4.0
+        
+        🖼️ Modern Workplace (Local de Trabalho Moderno)
+           • Compacta (400x300): /assets/generated/modern-workplace.dim_400x300.png
+           • Uso: Slide de Trabalho e Indústria, Escritórios Modernos
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📁 CATEGORIA: FINANÇAS E ECONOMIA
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        🖼️ Financial Dashboard (Painel Financeiro)
+           • Compacta (400x300): /assets/generated/financial-dashboard.dim_400x300.png
+           • Uso: Slide de Financeiro, Análise de Dados, FinTech
+        
+        🖼️ Trading Floor (Pista de Negociação)
+           • Compacta (400x300): /assets/generated/trading-floor.dim_400x300.png
+           • Uso: Slide de Economia e Finanças, Mercados, Investimentos
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📁 CATEGORIA: SAÚDE E BEM-ESTAR
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        🖼️ Medical Scanner (Scanner Médico)
+           • Compacta (400x300): /assets/generated/medical-scanner.dim_400x300.png
+           • Uso: Slide de Saúde e Bem-Estar, Tecnologia Médica
+        
+        🖼️ Wellness Center (Centro de Bem-Estar)
+           • Compacta (400x300): /assets/generated/wellness-center.dim_400x300.png
+           • Uso: Saúde, Bem-Estar, Qualidade de Vida
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📁 CATEGORIA: EDUCAÇÃO E PESQUISA
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        🖼️ Digital Classroom (Sala de Aula Digital)
+           • Compacta (400x300): /assets/generated/digital-classroom.dim_400x300.png
+           • Uso: Slide de Educação, E-Learning, Ensino Digital
+        
+        🖼️ Research Lab (Laboratório de Pesquisa)
+           • Compacta (400x300): /assets/generated/research-lab.dim_400x300.png
+           • Uso: Slide de Ciência e Pesquisa, Laboratórios, Inovação
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📁 CATEGORIA: CIDADES E SUSTENTABILIDADE
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        🖼️ Smart City (Cidade Inteligente)
+           • Compacta (400x300): /assets/generated/smart-city.dim_400x300.png
+           • Uso: Slide de Sociedade e Cidadania, Cidades Inteligentes, IoT Urbano
+        
+        🖼️ Sustainable City (Cidade Sustentável)
+           • Compacta (400x300): /assets/generated/sustainable-city.dim_400x300.png
+           • Uso: Slide de Meio Ambiente e Sustentabilidade, Ecologia Urbana
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📁 CATEGORIA: MÍDIA E COMUNICAÇÃO
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        🖼️ Media Studio (Estúdio de Mídia)
+           • Compacta (400x300): /assets/generated/media-studio.dim_400x300.png
+           • Uso: Slide de Cultura, Mídia e Comunicação, Produção de Conteúdo
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📁 CATEGORIA: INFRAESTRUTURA E CLOUD
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        🖼️ Cloud Computing Datacenter (Datacenter de Computação em Nuvem)
+           • Compacta (400x300): /assets/generated/cloud-computing-datacenter-compact.dim_400x300.png
+           • Alta Resolução (800x600): /assets/generated/cloud-computing-datacenter.dim_800x600.png
+           • Uso: Tecnologia, Cloud Computing, Infraestrutura Digital
+        
+        🖼️ Cybersecurity Shield (Escudo de Cibersegurança)
+           • Compacta (400x300): /assets/generated/cybersecurity-shield-compact.dim_400x300.png
+           • Alta Resolução (800x600): /assets/generated/cybersecurity-shield.dim_800x600.png
+           • Uso: Segurança Digital, Proteção de Dados, Tecnologia
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📁 CATEGORIA: BANNERS E HERO IMAGES
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        🖼️ Innovation Hero (Banner Principal de Inovação)
+           • Compacta (400x300): /assets/generated/innovation-hero-compact.dim_400x300.png
+           • Ultra Alta Resolução (1200x600): /assets/generated/innovation-hero.dim_1200x600.png
+           • Uso: Hero sections, Banners principais, Páginas de destaque, Logo institucional
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📁 CATEGORIA: IMAGENS ADICIONAIS
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        🖼️ Imagens Diversas
+           • /assets/image.png
+           • /assets/image-1.png
+           • /assets/image-2.png
+           • Uso: Recursos adicionais conforme necessário
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📊 RESUMO ESTATÍSTICO
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        Total de Assets: 31 arquivos
+        
+        Por Resolução:
+        • Compactas (400x300): 20 imagens
+        • Alta Resolução (800x600): 6 imagens
+        • Especiais (1024x768, 1200x600): 2 imagens
+        • Diversas: 3 imagens
+        
+        Por Categoria:
+        • IA e Tecnologia: 4 conjuntos (8 arquivos)
+        • Indústria e Produção: 4 conjuntos (5 arquivos)
+        • Finanças e Economia: 2 arquivos
+        • Saúde e Bem-Estar: 2 arquivos
+        • Educação e Pesquisa: 2 arquivos
+        • Cidades e Sustentabilidade: 2 arquivos
+        • Mídia e Comunicação: 1 arquivo
+        • Infraestrutura e Cloud: 2 conjuntos (4 arquivos)
+        • Banners: 1 conjunto (2 arquivos)
+        • Diversos: 3 arquivos
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        💡 NOTAS DE USO
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        1. Priorize imagens compactas (400x300) para melhor performance no slideshow
+        2. Use imagens de alta resolução para displays de destaque ou impressão
+        3. Todas as imagens seguem o tema futurista com efeitos neon e holográficos
+        4. As imagens são otimizadas para carregamento rápido e compatibilidade offline
+        5. O slideshow seleciona aleatoriamente entre todas as imagens disponíveis
+        6. Logo institucional usa innovation-hero-compact.dim_400x300.png
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        📝 MANUTENÇÃO
+        ═══════════════════════════════════════════════════════════════════════════════
+        
+        Para adicionar novos assets:
+        1. Adicione o arquivo na pasta /assets/generated/
+        2. Documente aqui com categoria, resolução e uso recomendado
+        3. Atualize o resumo estatístico
+        4. Considere criar versões em múltiplas resoluções
+        
+        Última atualização: 2025
+        Mantido por: Escola SENAI "Luis Eulalio de Bueno Vidigal Filho"
+        
+        ═══════════════════════════════════════════════════════════════════════════════
+        -->
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
