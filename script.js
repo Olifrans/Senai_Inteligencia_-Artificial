@@ -286,8 +286,10 @@
     let currentSlideIndex = 0;
     let slideOrder = [];
     let autoplayInterval;
-    const AUTOPLAY_DELAY = 3000; // 7 seconds per slide
-    // const AUTOPLAY_DELAY = 7000; // 7 seconds per slide
+
+    // Tempo Slides
+    //const AUTOPLAY_DELAY = 3000; // 7 seconds per slide
+    const AUTOPLAY_DELAY = 12000; // 7 seconds per slide
 
     // Generate random slide order using Fisher-Yates shuffle
     function generateRandomOrder() {
